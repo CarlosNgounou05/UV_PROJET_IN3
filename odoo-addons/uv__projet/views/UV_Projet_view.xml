@@ -1,0 +1,47 @@
+<odoo>
+<data>
+
+
+
+
+<!--Menus parent-->
+<menuitem name="AGRIProd" id="AGRIProd_root" sequence="10"/>
+<menuitem name="Administration" id="AGRIProd__admin_root" parent="AGRIProd_root" sequence="10"/>
+<menuitem name="Gestion Clients" id="AGRIProd__client_root" parent="AGRIProd_root"   groups="" sequence="10"/>
+<menuitem name="Gestion Commandes" id="AGRIProd__command_root" parent="AGRIProd_root" sequence="10"/>
+<menuitem name="Gestion Comptabilite" id="AGRIProd__facture_root" parent="AGRIProd_root" sequence="10"/>
+<menuitem name="Gestion Stocks" id="AGRIProd__stock_root" parent="AGRIProd_root" sequence="10"/>
+<menuitem name="Gestion RH" id="AGRIProd__RH_root" parent="AGRIProd_root" groups="" sequence="10"/>
+<menuitem name="Gestion Productions" id="AGRIProd__production_root" parent="AGRIProd_root" sequence="10"/>
+
+<!--sous menus Administration-->
+<menuitem name="Tous les employés" id="AGRIProd__list__admin_root" parent="AGRIProd__admin_root" sequence="10"/>
+<!--sous menus Gestions Clients-->
+<menuitem name="Liste de Clients" id="AGRIProd__list__clients_root" parent="AGRIProd__client_root" sequence="10"/>
+<!--sous menus Gestions Commandes-->
+<menuitem name="Listes des Commandes" id="AGRIProd__list__command_root" parent="AGRIProd__command_root" sequence="10"/>
+<menuitem name="Commandes livrées" id="AGRIProd__list__commandLivrée_root" parent="AGRIProd__command_root" sequence="10"/>
+<menuitem name="Commandes non-livrées" id="AGRIProd__list__commandNonLivrée_root" parent="AGRIProd__command_root" sequence="10"/>
+
+<!--sous menus Gestions Factures
+<menuitem name="Listes Factures" id="AGRIPro__list__facture_root" parent="AGRIProd__facture_root" sequence="10"/>
+<menuitem name="Factures Payées" id="AGRIPro__list__facturePayée_root" parent="AGRIProd__facture_root" sequence="10"/>
+<menuitem name="Factures non-Payées" id="AGRIPro__list__factureNonPayée_root" parent="AGRIProd__facture_root" sequence="10"/>
+-->
+<!--sous menus Gestions Stocks-->
+<menuitem name="Tous les produits" id="AGRIProd__list__products_root" parent="AGRIProd__stock_root" sequence="10"/> 
+<menuitem name="Produits Finis " id="AGRIProd__list__productsFini_root" parent="AGRIProd__stock_root" sequence="10"/> 
+<menuitem name="Intrants" id="AGRIProd__list__intrant_root" parent="AGRIProd__stock_root" sequence="10"/> 
+<!--sous menus Gestions Productions-->
+<menuitem name="Employés" id="AGRIProd__list__employees_root" parent="AGRIProd__RH_root" sequence="10"/> 
+<menuitem name="Departement" id="AGRIProd__list__departements_root" parent="AGRIProd__RH_root" groups="" sequence="10"/> 
+<!--sous menus Gestions Productions-->
+<menuitem name="Tous les cultures" id="AGRIProd__list__culture_root" parent="AGRIProd__stock_root" sequence="10"/> 
+<menuitem name="Les Parcelles" id="AGRIProd__list__parcelle_root" parent="AGRIProd__stock_root" sequence="10"/> 
+
+
+
+<!--les actions-->
+
+</data>
+</odoo>
