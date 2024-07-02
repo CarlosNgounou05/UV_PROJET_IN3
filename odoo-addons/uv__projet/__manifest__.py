@@ -23,9 +23,10 @@ Long description of module's purpose
     # always loaded
     'data': [
         #'security/security.xml',
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
+        'views/client_view.xml',
+        'views/product_view.xml',
         'views/UV_Projet_view.xml',
-        
     ],
     # only loaded in demonstration mode
     'demo': [

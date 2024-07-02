@@ -1,2 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_uv__projet_uv__projet,uv__projet.uv__projet,model_uv__projet_uv__projet,base.group_user,1,1,1,1
+access_uv__projet_client,uv__projet.client,model_uv__projet_client,base.group_user,1,1,1,1
+access_uv__projet_products,uv__projet.products,model_uv__projet_products,base.group_user,1,1,1,1

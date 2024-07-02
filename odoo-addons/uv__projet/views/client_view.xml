@@ -1,0 +1,28 @@
+<odoo>
+<data>
+<record id="action_AGRIPro_client" model="ir.actions.act_window">
+<field name="name">AGRIPro Clients</field>
+<field name="res_model">uv__projet.client</field>
+<field name="view_mode">tree,form,kanban</field>
+<field name="help" type="html">
+<p class="o_view_nocontent_smiling_face">
+AGRIPro Clients
+</p>
+</field>
+</record>
+<record id="AGRIPro_client_view_tree" model="ir.ui.view">
+    <field name="name">AGRIProClients.view</field>
+    <field name="model">uv__projet.client</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="id" string="ID Client"/>
+            <field name="nom" string="Nom Client"/>
+            <field name="prenom" string="Prenom Client"/>
+            <field name="adresse" string="Adresse Client"/>
+            <field name="contact" string="Contact Client"/>
+            <field name="ville" string="Ville Client"/>
+        </tree>
+    </field>
+</record>
+</data>
+</odoo>

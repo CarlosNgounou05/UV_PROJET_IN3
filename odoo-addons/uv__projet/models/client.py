@@ -1,11 +1,11 @@
 from odoo import models, fields, api
 
 class Client(models.Model):
-    _name="uv__projet.uv__projet"
-    _description="clients AGRIPro"
+    _name="uv__projet.client"
+    _description="AGRIPro clients"
 
-
-    name=fields.Char("Nom",required=True)
+    id=fields.Integer("Identifiant",required=True)
+    nom=fields.Char("Nom",required=True)
     prenom=fields.Char("Prenom")
     adresse=fields.Char("Adresse",required=True)
     contact=fields.Char("Contact",required=True)
